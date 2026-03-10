@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Asian College of Technology – North Campus</title>
+  <meta name="description" content="Asian College of Technology North Campus — Premier technology education in Asia. Apply for admission today." />
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════
+       NAVIGATION
+  ═══════════════════════════════════ -->
+  <nav>
+    <a class="nav-logo" href="#">
+      <div class="emblem">ACT</div>
+      <div class="name">
+        Asian College of Technology
+        <span>North Campus</span>
+      </div>
+    </a>
+
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#programs">Programs</a></li>
+      <li><a href="#campus">Campus Life</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <a class="nav-cta" href="#apply" data-modal="apply">Apply Now</a>
+
+    <button class="nav-hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#programs">Programs</a></li>
+      <li><a href="#campus">Campus Life</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="#apply" class="mobile-cta" data-modal="apply">Apply Now</a>
+  </div>
+
+
+  <!-- ═══════════════════════════════════
+       HERO
+  ═══════════════════════════════════ -->
+  <section class="hero">
+    <div class="hero-bg-pattern"></div>
+    <div class="hero-accent"></div>
+    <div class="hero-tag">Asian College of Technology — North Campus</div>
+    <h1>Where <em>Innovation</em><br>Meets Excellence</h1>
+    <p class="hero-sub">Empowering the next generation of technology leaders with world-class education, cutting-edge facilities, and a culture of discovery and collaboration.</p>
+    <div class="hero-btns">
+      <a href="#apply" class="btn-primary" data-modal="apply">Apply for Admission</a>
+      <a href="#programs" class="btn-outline">Explore Programs</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat-item">
+        <div class="num" data-target="12000+">12,000+</div>
+        <div class="lbl">Students Enrolled</div>
+      </div>
+      <div class="stat-item">
+        <div class="num" data-target="85+">85+</div>
+        <div class="lbl">Academic Programs</div>
+      </div>
+      <div class="stat-item">
+        <div class="num" data-target="98%">98%</div>
+        <div class="lbl">Graduate Employment</div>
+      </div>
+      <div class="stat-item">
+        <div class="num" data-target="40+">40+</div>
+        <div class="lbl">Years of Excellence</div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════
+       ABOUT
+  ═══════════════════════════════════ -->
+  <section class="about" id="about">
+    <div class="section-label reveal">About ACT North Campus</div>
+    <h2 class="section-title reveal reveal-delay-1">Shaping Tomorrow's<br>Technology Leaders</h2>
+    <div class="about-grid">
+      <div class="about-copy reveal reveal-delay-2">
+        <p>Asian College of Technology – North Campus is a premier institution dedicated to providing high-quality, industry-aligned education in technology, engineering, business, and the sciences. Since our founding, we have stood at the forefront of academic innovation in Asia.</p>
+        <div class="highlight">"Our mission is to cultivate competent, ethical, and globally competitive graduates who contribute meaningfully to society and the advancement of technology."</div>
+        <p>Located in the heart of the northern district, our campus features state-of-the-art laboratories, collaborative study spaces, and direct industry partnerships that bridge the gap between academia and the professional world.</p>
+      </div>
+      <div class="about-visual reveal reveal-delay-3">
+        <div class="about-card">
+          <div class="icon">🎓</div>
+          <h4>CHED Accredited</h4>
+          <p>All programs are accredited by the Commission on Higher Education, meeting the highest standards of quality assurance.</p>
+        </div>
+        <div class="about-card">
+          <div class="icon">🔬</div>
+          <h4>Research-Driven</h4>
+          <p>Active research centers and innovation hubs that produce groundbreaking work in applied technology.</p>
+        </div>
+        <div class="about-card">
+          <div class="icon">🌏</div>
+          <h4>Global Network</h4>
+          <p>Partner universities and companies across Asia, Europe, and the Americas for exchange programs and internships.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════
+       PROGRAMS
+  ═══════════════════════════════════ -->
+  <section class="programs" id="programs">
+    <div class="section-label reveal">Academic Programs</div>
+    <h2 class="section-title reveal reveal-delay-1">Degrees Built for the<br>Digital Economy</h2>
+
+    <!-- Filter Tabs -->
+    <div class="program-filters reveal reveal-delay-2">
+      <button class="filter-btn active" data-filter="all">All Programs</button>
+      <button class="filter-btn" data-filter="computing">College of Computing</button>
+      <button class="filter-btn" data-filter="engineering">College of Engineering</button>
+      <button class="filter-btn" data-filter="business">College of Business</button>
+      <button class="filter-btn" data-filter="graduate">Graduate School</button>
+    </div>
+
+    <div class="programs-grid">
+
+      <div class="program-card featured reveal" data-dept="computing">
+        <div class="program-body">
+          <div class="program-dept">College of Computing</div>
+          <h3>Bachelor of Science in Computer Science</h3>
+          <p>A rigorous program in algorithms, software engineering, AI, and systems — preparing graduates for leading tech roles globally.</p>
+        </div>
+        <div class="program-footer">
+          <span class="program-duration">4 Years · Full-time</span>
+          <button class="program-link">Learn More →</button>
+        </div>
+      </div>
+
+      <div class="program-card red-accent reveal reveal-delay-1" data-dept="computing">
+        <div class="program-body">
+          <div class="program-dept">College of Computing</div>
+          <h3>Bachelor of Science in Information Technology</h3>
+          <p>Covering networks, cybersecurity, database management, and IT infrastructure for enterprise environments.</p>
+        </div>
+        <div class="program-footer">
+          <span class="program-duration">4 Years · Full-time</span>
+          <button class="program-link">Learn More →</button>
+        </div>
+      </div>
+
+      <div class="program-card reveal reveal-delay-2" data-dept="engineering">
+        <div class="program-body">
+          <div class="program-dept">College of Engineering</div>
+          <h3>Bachelor of Science in Electronics Engineering</h3>
+          <p>Hands-on training in circuits, embedded systems, communications, and IoT device engineering.</p>
+        </div>
+        <div class="program-footer">
+          <span class="program-duration">5 Years · Full-time</span>
+          <button class="program-link">Learn More →</button>
+        </div>
+      </div>
+
+      <div class="program-card reveal reveal-delay-3" data-dept="business">
+        <div class="program-body">
+          <div class="program-dept">College of Business</div>
+          <h3>Bachelor of Science in Business Administration</h3>
+          <p>Specializations in Marketing, Finance, and Human Resource Management with a technology management lens.</p>
+        </div>
+        <div class="program-footer">
+          <span class="program-duration">4 Years · Full-time</span>
+          <button class="program-link">Learn More →</button>
+        </div>
+      </div>
+
+      <div class="program-card reveal" data-dept="computing">
+        <div class="program-body">
+          <div class="program-dept">College of Computing</div>
+          <h3>Bachelor of Science in Data Science</h3>
+          <p>Statistics, machine learning, big data analytics, and data visualization for decision-making in modern organizations.</p>
+        </div>
+        <div class="program-footer">
+          <span class="program-duration">4 Years · Full-time</span>
+          <button class="program-link">Learn More →</button>
+        </div>
+      </div>
+
+      <div class="program-card reveal reveal-delay-1" data-dept="graduate">
+        <div class="program-body">
+          <div class="program-dept">Graduate School</div>
+          <h3>Master of Science in Computer Science</h3>
+          <p>Advanced research and coursework in AI, computer vision, software architecture, and technology management.</p>
+        </div>
+        <div class="program-footer">
+          <span class="program-duration">2 Years · Full/Part-time</span>
+          <button class="program-link">Learn More →</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════
+       CAMPUS LIFE
+  ═══════════════════════════════════ -->
+  <section class="campus" id="campus">
+    <div class="section-label reveal">Campus Life</div>
+    <h2 class="section-title reveal reveal-delay-1">More Than a Classroom</h2>
+    <div class="campus-grid">
+
+      <div class="campus-tile wide reveal reveal-delay-2">
+        <div class="tile-icon">🏛️</div>
+        <h3>Modern Facilities</h3>
+        <p>ACT North Campus features 6 specialized computer laboratories, a multimedia engineering lab, a fabrication &amp; maker space, high-speed campus-wide Wi-Fi, an air-conditioned library with over 50,000 volumes, and collaborative project rooms designed for team-based learning.</p>
+      </div>
+
+      <div class="campus-tile reveal reveal-delay-3">
+        <div class="tile-icon">🏆</div>
+        <h3>Student Organizations</h3>
+        <p>Over 40 recognized student clubs from robotics and competitive programming to entrepreneurship and cultural organizations.</p>
+      </div>
+
+      <div class="campus-tile reveal">
+        <div class="tile-icon">💼</div>
+        <h3>Industry Partnerships</h3>
+        <p>MOUs with 200+ companies ensure internship placements, on-the-job training, and fast-track employment for graduates.</p>
+      </div>
+
+      <div class="campus-tile reveal reveal-delay-1">
+        <div class="tile-icon">🌐</div>
+        <h3>International Exchange</h3>
+        <p>Student and faculty exchange programs with partner universities in Japan, South Korea, Singapore, and Australia.</p>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════
+       NEWS & ANNOUNCEMENTS
+  ═══════════════════════════════════ -->
+  <section class="announcements" id="news">
+    <div class="section-label reveal">News &amp; Announcements</div>
+    <h2 class="section-title reveal reveal-delay-1">Stay In the Loop</h2>
+    <div class="ann-grid">
+
+      <div class="news-list reveal reveal-delay-2">
+
+        <div class="news-item">
+          <div class="news-date">
+            <div class="day">15</div>
+            <div class="mon">Mar</div>
+          </div>
+          <div class="news-body">
+            <h4>Enrollment for S.Y. 2026–2027 Now Open</h4>
+            <p>Online application is now available for incoming freshmen, transferees, and graduate students. Secure your slot early — slots are limited.</p>
+            <span class="news-tag tag-admin">Admissions</span>
+          </div>
+        </div>
+
+        <div class="news-item">
+          <div class="news-date">
+            <div class="day">10</div>
+            <div class="mon">Mar</div>
+          </div>
+          <div class="news-body">
+            <h4>ACT Students Win National Hackathon 2026</h4>
+            <p>Team ByteForge of BS Computer Science clinched 1st place at the National ICT Competition held in Manila, besting 300+ teams nationwide.</p>
+            <span class="news-tag tag-academic">Achievement</span>
+          </div>
+        </div>
+
+        <div class="news-item">
+          <div class="news-date">
+            <div class="day">28</div>
+            <div class="mon">Feb</div>
+          </div>
+          <div class="news-body">
+            <h4>Tech Summit 2026: Registration Now Open</h4>
+            <p>ACT North Campus hosts its annual technology summit featuring keynote speakers from Google, Microsoft, and leading Asian startups.</p>
+            <span class="news-tag tag-event">Event</span>
+          </div>
+        </div>
+
+        <div class="news-item">
+          <div class="news-date">
+            <div class="day">20</div>
+            <div class="mon">Feb</div>
+          </div>
+          <div class="news-body">
+            <h4>New AI Research Center Inaugurated</h4>
+            <p>The ACT Artificial Intelligence and Machine Learning Research Center opens with state-of-the-art GPU computing resources and industry-funded research grants.</p>
+            <span class="news-tag tag-academic">Research</span>
+          </div>
+        </div>
+
+      </div><!-- /news-list -->
+
+      <div class="reveal reveal-delay-3">
+        <div class="sidebar-widget">
+          <h3>Quick Links</h3>
+          <a href="#" class="quick-link" data-modal="apply">Student Portal Login</a>
+          <a href="#" class="quick-link" data-modal="apply">Online Enrollment</a>
+          <a href="#" class="quick-link">Academic Calendar</a>
+          <a href="#" class="quick-link">Tuition &amp; Fees</a>
+          <a href="#" class="quick-link">Scholarship Programs</a>
+          <a href="#" class="quick-link">Library Online Access</a>
+        </div>
+        <div class="sidebar-widget">
+          <h3>Office Hours</h3>
+          <p style="font-size:13px;color:var(--muted);line-height:1.8;">
+            Monday – Friday<br>
+            <strong style="color:var(--navy);">7:30 AM – 6:00 PM</strong><br><br>
+            Saturday<br>
+            <strong style="color:var(--navy);">8:00 AM – 12:00 PM</strong><br><br>
+            <span style="color:var(--red);font-weight:600;">Closed on Sundays &amp; Holidays</span>
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════
+       ADMISSION CTA
+  ═══════════════════════════════════ -->
+  <section class="admission-cta" id="apply">
+    <h2 class="reveal">Begin Your Journey at ACT</h2>
+    <p class="reveal reveal-delay-1">Applications are open for the upcoming academic year. Take the first step toward a future in technology.</p>
+    <div class="cta-btns reveal reveal-delay-2">
+      <button class="btn-white" data-modal="apply">Apply Online</button>
+      <button class="btn-outline-white" data-modal="info">Request Information</button>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════ -->
+  <footer id="contact">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo-text">Asian College of Technology<br><span>North Campus</span></div>
+        <p>Committed to delivering quality education and producing world-class technology professionals since 1984.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Academics</h4>
+        <a href="#programs">Programs &amp; Courses</a>
+        <a href="#news">Academic Calendar</a>
+        <a href="#campus">Research Centers</a>
+        <a href="#programs">Graduate School</a>
+        <a href="#about">Faculty Directory</a>
+      </div>
+      <div class="footer-col">
+        <h4>Student Life</h4>
+        <a href="#campus">Organizations</a>
+        <a href="#campus">Sports &amp; Athletics</a>
+        <a href="#" data-modal="info">Scholarships</a>
+        <a href="#" data-modal="info">Career Services</a>
+        <a href="#" data-modal="apply">Student Portal</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <a href="#">📍 North Campus Drive, Cebu City</a>
+        <a href="tel:032-888-0000">📞 (032) 888-0000</a>
+        <a href="mailto:northcampus@act.edu.ph">✉️ northcampus@act.edu.ph</a>
+        <a href="#" target="_blank" rel="noopener">Facebook Page</a>
+        <a href="#" target="_blank" rel="noopener">Official Website</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2026 <span>Asian College of Technology – North Campus</span>. All rights reserved.</div>
+      <div>Privacy Policy · Terms of Use</div>
+    </div>
+  </footer>
+
+
+  <!-- ═══════════════════════════════════
+       BACK TO TOP
+  ═══════════════════════════════════ -->
+  <button id="back-to-top" aria-label="Back to top">↑</button>
+
+
+  <!-- ═══════════════════════════════════
+       NEWS MODAL
+  ═══════════════════════════════════ -->
+  <div class="modal-overlay" id="news-modal" role="dialog" aria-modal="true">
+    <div class="modal-box">
+      <button class="modal-close" id="news-modal-close" aria-label="Close">×</button>
+      <div class="modal-tag"><span id="modal-tag-text" class="news-tag"></span></div>
+      <h2 class="modal-title" id="modal-title"></h2>
+      <p class="modal-meta" id="modal-meta"></p>
+      <p class="modal-body" id="modal-body"></p>
+    </div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════
+       INQUIRY / APPLICATION MODAL
+  ═══════════════════════════════════ -->
+  <div class="modal-overlay" id="inquiry-modal" role="dialog" aria-modal="true">
+    <div class="modal-box">
+      <button class="modal-close" id="inquiry-modal-close" aria-label="Close">×</button>
+      <h2 class="modal-title" id="inquiry-modal-title">Apply for Admission</h2>
+      <p class="modal-meta" style="margin-bottom:24px;">Fill in your details and our admissions team will contact you within 1–2 business days.</p>
+
+      <form id="inquiry-form" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="field-fname">First Name *</label>
+            <input type="text" id="field-fname" name="fname" placeholder="Juan" required />
+          </div>
+          <div class="form-group">
+            <label for="field-lname">Last Name *</label>
+            <input type="text" id="field-lname" name="lname" placeholder="dela Cruz" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="field-email">Email Address *</label>
+          <input type="email" id="field-email" name="email" placeholder="juan@example.com" required />
+        </div>
+        <div class="form-group">
+          <label for="field-phone">Phone Number</label>
+          <input type="tel" id="field-phone" name="phone" placeholder="+63 9XX XXX XXXX" />
+        </div>
+        <div class="form-group">
+          <label for="field-type">Applicant Type *</label>
+          <select id="field-type" name="type" required>
+            <option value="">Select applicant type…</option>
+            <option value="freshman">Incoming Freshman</option>
+            <option value="transferee">Transferee</option>
+            <option value="graduate">Graduate Student</option>
+            <option value="international">International Student</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="field-program">Program of Interest *</label>
+          <select id="field-program" name="program" required>
+            <option value="">Select a program…</option>
+            <option value="bscs">BS Computer Science</option>
+            <option value="bsit">BS Information Technology</option>
+            <option value="bsece">BS Electronics Engineering</option>
+            <option value="bsba">BS Business Administration</option>
+            <option value="bsds">BS Data Science</option>
+            <option value="mscs">MS Computer Science</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="field-message">Message / Questions</label>
+          <textarea id="field-message" name="message" placeholder="Any specific questions or notes for the admissions team…"></textarea>
+        </div>
+        <button type="submit" class="form-submit">Submit Inquiry</button>
+      </form>
+
+      <div class="form-success" id="form-success">
+        <div class="check">✅</div>
+        <h3>Inquiry Received!</h3>
+        <p>Thank you for reaching out to ACT North Campus. Our admissions team will contact you within 1–2 business days at the email you provided.</p>
+      </div>
+
+    </div>
+  </div>
+
+
+  <script src="js/main.js"></script>
+</body>
+</html>
